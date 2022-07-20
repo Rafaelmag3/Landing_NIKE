@@ -1,0 +1,101 @@
+:root{
+  --lyrics_color:#fff ;
+}
+
+
+.body{
+  background: url(../img/BG.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: var(--lyrics_color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  
+}
+h1, .cost .button{
+  text-transform: uppercase;
+}
+.container{
+  margin: 30px 80px;
+  padding: 10px 20px;
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 12.5px );
+  -webkit-backdrop-filter: blur( 12.5px );
+  border-radius: 25px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+  
+}
+.container_nav{
+  width: auto;
+}
+.menu-navegation{
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+a{
+  text-decoration: none;
+  color: var(--lyrics_color);
+}
+.ico{
+  
+  width: 70px;
+  height: 60px;
+}
+
+.optios_menu{
+  display: inline;
+  justify-content: space-between;
+  padding: 5px 40px 0 0;
+  
+}
+.name{
+  font-size: 80px;
+  padding-top: 15px;
+}
+.cost{
+  font-size: 30px;
+  padding: 0 0 15px 0;
+}
+
+.details{
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+}
+.item{
+  display: grid;
+  grid-template-rows: 1fr 190px;
+}
+
+p{
+  text-align: justify;
+  line-height: 2;
+  
+}
+
+.image{
+  width: 530px;
+  height: 400px;
+}
+
+.button{
+  padding:15px 40px;
+  font-size: 17px;
+  font-weight: 700;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(126,35,255,1) 0%, rgba(148,55,250,1) 56%, rgba(0,194,255,1) 100%);
+  border-radius: 20px;
+  text-transform: uppercase;
+  
+}
+
+.efect_hover:hover{
+  cursor: pointer;
+  text-decoration: overline;
+}
